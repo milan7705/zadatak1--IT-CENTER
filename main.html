@@ -4,8 +4,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="./candy-crush-app.js"></script>
 </head>
 <body>
+    <h1>Pivnica</h1>
+    <label for="enterNumbers">
+        <input style="width: 250px" type="text" name="enterNumbers" id="inputNb" placeholder="Enter comma separated list of numbers">
+    </label>
+    <button id="calc" onclick="handleClick()">
+        Calc
+    </button>
+
+    <h3>The number of beers three brothers chugged is: <span id="finalValue"></span> </h3>
 </body>
-<script src="./candy-crush-app.js"></script>
 </html>
